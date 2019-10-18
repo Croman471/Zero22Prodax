@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
+var prefix = "$";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
@@ -23,9 +23,9 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`S2ud`,"http://twitch.tv/S-F")
+client.user.setGame(`roman..`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NjM0NjcxMTkxOTQ0MjAwMTky.Xal-0g.qIlSXxYeMY_PZe9qa5jciINK2eo);
